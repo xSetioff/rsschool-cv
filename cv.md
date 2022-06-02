@@ -27,5 +27,5 @@ function multiply(a, b){
 ********* 
 **Languages:**
 * Polish - Basic
-* Russian - Native 
+* Russian - Natiive 
 * English - Basic
