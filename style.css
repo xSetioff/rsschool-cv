@@ -1,1 +1,151 @@
-qq
+body {
+    background: rgb(21, 24, 34);
+    background-size: 100%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+#image {
+    left: 32px;
+    top: 364px;
+    margin: 0 auto;
+  overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 85px;
+    line-height: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+.nav-link:hover {
+    background: rgb(189, 154, 41);
+    border-radius: 7px;
+}
+
+.section {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+.sectionR {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 30px;
+    
+}
+    
+
+.ds {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ds:hover {
+    background: none;
+
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    background-color: rgb(77, 77, 77);
+    
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 36px;
+    background-color: rgb(21, 24, 34);
+}
+
+.main-container {   
+    display: flex;
+    flex-direction:row;
+}
+pre {
+    display: block;
+    font-family: Lato;
+    white-space: pre;
+    margin: 1em 0px;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 4em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.sectionR1 {
+    font-size: 30px;
+    margin: 0 50px;
+    font-weight: bold;
+}
+footer {
+    border-top: 2px solid rgb(77, 77, 77);
+}
+
+.footer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ifooter {
+    list-style-type: none;
+    color:white;
+}
+.rsslogof {
+    width: 96px;
+    height: 32px;
+}
+.githublogof{
+    width: 42px;
+    height: 42px;
+}
+.poto {
+    border-radius: 50%;
+    overflow: hidden;
+}
