@@ -59,6 +59,7 @@ html {
 .section {
     color: rgb(255, 255, 255);
     width: 100%;
+    
 }
 .sectionR {
     color: rgb(255, 255, 255);
@@ -115,7 +116,8 @@ pre {
 }
 .sectionR1 {
     font-size: 30px;
-    margin: 0 30px;
+    margin: 0 50px;
+    font-weight: bold;
 }
 footer {
     border-top: 2px solid rgb(77, 77, 77);
@@ -134,4 +136,16 @@ a {
 .ifooter {
     list-style-type: none;
     color:white;
+}
+.rsslogof {
+    width: 96px;
+    height: 32px;
+}
+.githublogof{
+    width: 42px;
+    height: 42px;
+}
+.poto {
+    border-radius: 50%;
+    overflow: hidden;
 }
